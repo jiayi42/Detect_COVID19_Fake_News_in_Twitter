@@ -16,5 +16,5 @@ see: https://jiayi42.github.io/minimal/
 
 ordered according to the last name
 
-Ching-Chieh, Huang
+Ching-Chieh, Huang\
 Ming-Ying, Li
