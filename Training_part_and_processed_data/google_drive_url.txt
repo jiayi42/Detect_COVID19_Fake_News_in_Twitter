@@ -1,0 +1,4 @@
+this url is google drive for training deep learning model weights & architecutres, minimal code, and processed data
+if you cannot access this drive, please notify me. (I have set it open to the public)
+
+https://drive.google.com/drive/folders/1-L0stMz9Owtkg3XSZVtXLV_rQQPnk-Wf?usp=sharing

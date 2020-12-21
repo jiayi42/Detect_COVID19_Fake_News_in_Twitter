@@ -1,0 +1,47 @@
+{% extends "base.html"%}
+
+{% block content %}
+<div class="bg">
+        <div class="d-flex justify-content-end why">
+            <!-- <p>please input the text below:</p> -->
+            <a class="btn btn-primary" href="https://jiayi42.github.io/minimal/" role="button">Why you need this service?</a>
+            <!-- <a href="https://jiayi42.github.io/minimal/">Why you need this service?</a> -->
+        </div>
+        <div class="h1-middle">
+            <h1> COVID-19 fact-checking tool </h1>
+        </div>
+        
+        
+        <form action="{{ url_for("predict")}}" method="post">
+        
+        <div class="d-flex justify-content-center text-input">
+            <div>
+                <textarea class="form-control" name="input_text" rows="10" cols="50" placeholder="What you want to check?"></textarea> 
+            </div>
+        </div>
+        <br>
+        <div class="text-middle">
+            <button type="submit" class="btn btn-primary"> check </button> 
+        </div>
+
+        
+        
+        <!-- <div class="d-inline-flex justify-content-center">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div> -->
+        </form>
+        
+        <br>
+        <div class="text-middle">
+            <p>Model Prediction:</p>
+            {% if predict_result %}
+                <p>{{ predict_result }}</p>
+            {% else %}
+                <br>
+            {% endif %}
+            {% endblock %}
+        
+        </div>
+    
+</div>
+
