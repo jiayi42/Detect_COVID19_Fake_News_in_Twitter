@@ -6,8 +6,8 @@ Real_Time_Embedded_System_Project
 2.labelling_tool (Python, Kafka, Docker, Kubernetes on Mac)
 3.Training_part_and_processed_data (Python, Colab, web cralwer, Flask, Keras, and Scikit-Learn)
 
-you can skip 1 as it is just for the trend of fake news.
-the processed data in 2 needs to be uploaded to your google drive directory for 3
+You can skip 1 as it is just for the trend of fake news.\
+The processed data in 2 needs to be uploaded to your google drive directory for 3.
 
 ### For data analysis for fake news and text processing documentation
 see: https://jiayi42.github.io/minimal/
